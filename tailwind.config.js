@@ -5,6 +5,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -19,7 +20,6 @@ module.exports = {
         cdark: "#241e38",
         cblack: "#151221",
       },
-      
     },
   },
   plugins: [],

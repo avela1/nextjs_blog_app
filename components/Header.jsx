@@ -8,20 +8,20 @@ import { FaUserFriends } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className="bg-cwhite top-0 fixed w-full">
+    <div className="bg-cblack top-0 fixed w-full">
       <div className="container mx-auto px-10 ">
-        <div className="w-full md:h-24 h-18 py-2 md:flex md:flex-wrap items-center justify-center">
+        <div className="w-full h-14 md:flex md:flex-wrap items-center justify-center">
           <div className="md:flex inline-block float-left ">
             <Link href="/" className="flex flex-row items-center ">
               <img src="/logo1.png" className=" w-12 h-12 mr-3" alt="Avatar" />
-              <span className="cursor-pointer font-bold text-xl text-cblack">
+              <span className="cursor-pointer font-bold text-xl text-clight">
                 {" "}
                 AV Blog
               </span>
             </Link>
           </div>
 
-          <form class=" md:flex md:flex-auto md:visible hidden items-center">
+          <form class=" md:flex md:flex-auto md:visible hidden items-center ">
             <label for="simple-search" class="sr-only">
               Search
             </label>
@@ -29,7 +29,7 @@ const Header = () => {
               <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-gray-500 dark:text-gray-400"
+                  class="w-4 h-4 text-gray-500 dark:text-gray-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const Header = () => {
               <input
                 type="text"
                 id="simple-search"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 px-4 py-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder="Search"
                 required
               />
@@ -54,27 +54,27 @@ const Header = () => {
           <div className="md:flex md:flex-row inline-block float-right items-center">
             <div className="md:flex md:flex-row inline-block items-center justify-center mt-3 ">
               <button>
-                <FaUserFriends className="md:w-7 md:h-7 w-5 h-5 mx-2 text-cgray" />
-                <div className="relative inline-flex items-center justify-center w-3 h-3 text-xs text-clight bg-cdanger rounded-full -top-7 md:-top-9  -right-3">
+                <FaUserFriends className="md:w-5 md:h-5 w-5 h-5 mx-2 text-cgray" />
+                <div className="relative inline-flex items-center justify-center w-3 h-3 text-xs text-clight bg-cdanger rounded-full -top-7 md:-top-7  -right-3">
                   2
                 </div>
               </button>{" "}
               <button>
-                <AiOutlineMessage className="md:w-7 md:h-7 w-5 h-5  mx-2 text-cgray" />
-                <div className="relative inline-flex items-center justify-center w-3 h-3 text-xs text-white bg-cdanger rounded-full -top-7 md:-top-9 -right-3">
+                <AiOutlineMessage className="md:w-5 md:h-5 w-5 h-5  mx-2 text-cgray" />
+                <div className="relative inline-flex items-center justify-center w-3 h-3 text-xs text-white bg-cdanger rounded-full -top-7 md:-top-7 -right-3">
                   3
                 </div>
               </button>
               <button className="mr-5">
-                <RiNotification2Line className="md:w-7 md:h-7 w-5 h-5 text-cgray" />
-                <div className="relative inline-flex items-center justify-center w-3 h-3 text-xs text-whiterounded-full -top-7 md:-top-9   -right-2"></div>
+                <RiNotification2Line className="md:w-5 md:h-5 w-5 h-5 mx-2  text-cgray" />
+                <div className="relative inline-flex items-center justify-center w-3 h-3 text-xs text-whiterounded-full -top-7 md:-top-7 -right-2"></div>
               </button>
             </div>
 
             <div className="justify-center inline-block items-center">
               <img
                 src="/profile-3.jpg"
-                className=" md:w-12 md:h-12 w-9 h-9  rounded-full mb-3"
+                className=" md:w-10 md:h-10 w-7 h-7  rounded-full mb-3"
                 alt="Avatar"
               />
             </div>
