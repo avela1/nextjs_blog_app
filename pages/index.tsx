@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
@@ -10,16 +9,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-row gap-6 md:gap-20 mt-2">
-        <div className="md:w-[600px] w-[40px] h-60 bg-white">
-          
+      <main className="flex w-full flex-1  gap-6 md:gap-20 mt-2">
+        <div className="md:w-1/4  w-[40px] h-60 bg-white">
           I love addanech ababe Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Expedita, inventore impedit. Neque necessitatibus
           veritatis itaque, maiores deleniti nostrum, commodi enim, aliquam
           impedit accusantium cumque saepe. Nostrum tempore hic beatae quae.
         </div>
-        <div className="w-full">I love addanech ababe</div>
-        <div className="w-[600px] h-80 md:flex md:flex-auto md:visible hidden bg-white">
+        <div className="w-1/2">I love addanech ababe</div>
+        <div className="w-1/4 h-80 md:flex md:flex-auto md:visible hidden bg-white">
           I love addanech ababe
         </div>
       </main>
