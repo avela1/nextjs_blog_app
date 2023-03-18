@@ -9,14 +9,14 @@ import { FaUserFriends } from "react-icons/fa";
 const Header = () => {
   return (
     <div className="bg-cblack top-0 fixed w-full">
-      <div className="container mx-auto px-10 ">
-        <div className="w-full h-14 md:flex md:flex-wrap items-center justify-center">
+      <div className="lg:container mx-auto lg:px-10 px-5">
+        <div className="w-full h-16 md:flex md:flex-wrap items-center justify-center">
           <div className="md:flex inline-block float-left ">
             <Link href="/" className="flex flex-row items-center ">
               <img src="/logo1.png" className=" w-12 h-12 mr-3" alt="Avatar" />
-              <span className="cursor-pointer font-bold text-xl text-clight">
+              <span className="cursor-pointer text-3xl text-cwhite font-tilt font-bold">
                 {" "}
-                AV Blog
+                AV-BLOG
               </span>
             </Link>
           </div>

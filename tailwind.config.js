@@ -20,6 +20,12 @@ module.exports = {
         cdark: "#241e38",
         cblack: "#151221",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        tilt: ["Tilt Prism", "cursive"],
+        akaya: ["Akaya Telivigala", "cursive"],
+        dancing: ["Dancing Script", "cursive"],
+      },
     },
   },
   plugins: [],

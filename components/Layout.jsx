@@ -4,7 +4,7 @@ import { Header } from "./";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="font-poppins font-thin">
       <Header />
       {children}
     </div>
