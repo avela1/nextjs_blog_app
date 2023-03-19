@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className="bg-cblack top-0 fixed w-full">
       <div className="lg:container mx-auto lg:px-10 px-5">
-        <div className="w-full h-16 md:flex md:flex-wrap items-center justify-center">
+        <div className="w-full h-16 md:flex md:flex-auto items-center justify-center">
           <div className="md:flex inline-block float-left ">
             <Link href="/" className="flex flex-row items-center ">
               <img src="/logo1.png" className=" w-12 h-12 mr-3" alt="Avatar" />
@@ -21,11 +21,11 @@ const Header = () => {
             </Link>
           </div>
 
-          <form class=" md:flex md:flex-auto md:visible hidden items-center ">
+          <form class=" md:flex lg:flex-auto lg:visible hidden items-center ">
             <label for="simple-search" class="sr-only">
               Search
             </label>
-            <div class="w-full ml-10 mr-10 relative">
+            <div class="w-full ml-20 mr-20 relative">
               <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                 <svg
                   aria-hidden="true"
