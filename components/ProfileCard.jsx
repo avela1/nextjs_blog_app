@@ -2,7 +2,7 @@ import React from "react";
 
 const ProfileCard = () => {
   return (
-    <div className="md:flex flex-col gap-2 items-start justify-start w-full rounded-2xl bg-cblack  hidden">
+    <div className="lg:flex flex-col gap-2 items-start justify-start w-full rounded-2xl bg-cblack  hidden">
       <div className=" flex gap-2 items-center justify-start h-[80px] ">
         <img
           src="/profile-3.jpg"
