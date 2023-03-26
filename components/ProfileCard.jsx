@@ -10,15 +10,15 @@ const ProfileCard = () => {
           alt="Avatar"
         />
         <div className="flex flex-col ">
-          <span className="text-cwhite font-akaya font-bold lg:text-xl text-sm">
+          <span className="text-cwhite font-akaya font-bold lg:text-base text-sm">
             HANNA DEREGE
           </span>
-          <span className=" text-clight  font-dancing lg:text-xl text-sm">
+          <span className=" text-clight  font-dancing lg:text-base text-sm">
             @hannad
           </span>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center gap-2 w-full mb-5">
+      {/* <div className="flex flex-col items-center justify-center gap-2 w-full mb-5">
         <hr className="w-[85%] text-cgray" />
         <div className="flex gap-1 w-[80%] items-center justify-around">
           <div className="flex flex-col gap-1 items-center justify-center">
@@ -47,7 +47,7 @@ const ProfileCard = () => {
           </div>
         </div>
         <hr className="w-5/6 text-cgray" />
-      </div>
+      </div> */}
     </div>
   );
 };
