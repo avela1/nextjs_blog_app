@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-import { LeftSide } from "./../components/.";
+import { LeftSide, RightSide } from "./../components/.";
 
 const Home: NextPage = () => {
   return (
@@ -15,9 +15,7 @@ const Home: NextPage = () => {
         
         <LeftSide />
         <div className="w-1/2">I love addanech ababe</div>
-        <div className="w-1/4 h-80 md:flex md:flex-auto md:visible hidden bg-white">
-          I love addanech ababe
-        </div>
+        <RightSide />
       </main>
     </div>
   );

@@ -1,5 +1,9 @@
 export { default as Layout } from "./Layout";
+export { default as ProfileCard } from "./ProfileCard";
+export { default as MessageTabs } from "./MessageTabs";
+export { default as MessagesCard } from "./MessagesCard";
+export { default as SearchInputCard } from "./SearchInputCard";
 export { default as Header } from "./Header";
 export { default as LeftSide } from "./LeftSide";
-export { default as ProfileCard } from "./ProfileCard";
-export {default as Menubar} from "./Menubar";
+export { default as Menubar } from "./Menubar";
+export { default as RightSide } from "./RightSide";

@@ -12,7 +12,7 @@ const Menubar = () => {
     <div className="md:flex flex-col gap-2 items-start justify-start w-[60px]  lg:w-full rounded-2xl bg-cblack   ">
       <div className="relative  w-full ">
         <div className="flex gap-3  items-center justify-start h-16">
-          <AiOutlineMessage className="w-6 h-6 lg:w-7 lg:h-7 ml-6  mx-2 text-cwhite " />
+          <AiOutlineHome className="w-6 h-6 lg:w-7 lg:h-7 ml-6  mx-2 text-cwhite " />
           <span className="text-cwhite items-center font-akaya lg:inline lg:text-xl md:text-base hidden">
             Home
           </span>
