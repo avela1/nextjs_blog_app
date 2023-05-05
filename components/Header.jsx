@@ -6,7 +6,7 @@ import { AiOutlineMessage } from "react-icons/ai";
 import { RiNotification2Line } from "react-icons/ri";
 import { FaUserFriends } from "react-icons/fa";
 
-import { SearchInputCard } from './';
+import { SearchInputCard } from "./";
 
 const Header = () => {
   return (
@@ -23,7 +23,7 @@ const Header = () => {
             </Link>
           </div>
           <div className="md:flex md:flex-auto md:visible hidden  ">
-           <SearchInputCard />
+            <SearchInputCard />
           </div>
 
           <div className="md:flex md:flex-row inline-block float-right items-center">
